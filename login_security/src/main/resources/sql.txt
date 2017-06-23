@@ -1,0 +1,9 @@
+data base : test
+
+
+CREATE TABLE `user_creds` (
+  `id` int(11) NOT NULL,
+  `username` varchar(30) DEFAULT NULL,
+  `password` varchar(30) DEFAULT NULL,
+  `active_flag` int(11) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
